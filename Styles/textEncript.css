@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --color-cuerpo:#333d29;
+    --color-logo:#414833;
+    --color-principal:#656d4a;
+    --color-textoin:#a68a64;
+    --color-textoout:#936639;
+    --color-piepagina:#58240e;
+    --color-boton:#b6ad90;
+    --color-hover:#7f4f24;
+    --color-varios:#a4ac86;
+
+    --fuente-krona: 'krona One', sans-serif;
+    --fuente-montserrat: 'Montserrat', sans-serif;
+}
+
+* {
+    padding:0;
+    margin: 0;  
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--color-cuerpo);
+    color: var(--color-varios);
+
+}
+
+.encabezado{
+    background-color: var(--color-logo);
+    padding:0.5% 0% 0.5% 0.5%
+}
+
+.logo--encrip{
+   width:7rem;
+}
+
+.principal{
+    background-color: var(--color-principal);
+    height: 30rem;
+
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.botones{
+    display:flex;
+    flex-direction:column;
+    gap: 1rem;
+    border: 1px solid var(--color-cuerpo);
+    width: 10rem ;
+}
+
+.boton-detalle:hover{
+    background-color: var(--color-hover); 
+}
+
+.boton-detalle{
+        font-size: 0.8rem
+}
+
+.piepagina{
+    background-color: var(--color-piepagina);
+    height: 10rem
+}
+
+
+
