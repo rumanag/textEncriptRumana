@@ -6,13 +6,21 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>RUmana- AluraLat- OracleOne Text Encription model</title>
+
         <link rel="stylesheet" href="Styles/textEncript.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+        <title>RUmana- AluraLat- OracleOne Text Encription model</title>
+       
     </head>
 
     <body>
        
         <header class="encabezado">
+            <img class="logo--alura" src="assets/LogoAlura.png" alt="Logo Alura">
             <img class="logo--encrip" src="assets/EncriptadorLogo5A.png" alt="LogoEncriptador">
 
         </header>
@@ -21,28 +29,27 @@
             <h1>Alura - OracleOne Text Encript model</h1> 
             <h2 > PROGRAMA EN CONSTRUCCIÓN</h2>
 
-            <div class="funciones-textos">
+            <section class="funciones-textos">
                 
-                <div class="botones">
+                <section class="botones">
                     <button class="boton-detalle">Encriptar</button>
                     <button class="boton-detalle">Copiar</button>
                     <button class="boton-detalle">Desencriptar</button>
-                </div>
+                </section>
 
+                <section class="textos">
+                    <textarea class="texto-detalle"  cols="30" rows="10" placeholder="Ingrese el texto aquí, solo en caracteres Numericos" onkeypress="return (event.charCode >= 48 && event.charCode <= 57)" min="1" ></textarea>
+                    <textarea class="texto-encriptado" cols="20" rows="10"  placeholder="Texto encriptado"></textarea>
+                </section>
+            </section>
 
-                <div class="textos"></div>
-
-
-
-            </div>
-
-
-
+            <div class="informacion">Solo letras minúsculas y sin acentos</div>
         </main>
-      
+        
         <footer class="piepagina">
-
+            Este es un pie de pagina
         </footer>
+        
 
 
 

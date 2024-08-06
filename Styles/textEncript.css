@@ -1,47 +1,54 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
     --color-cuerpo:#333d29;
-    --color-logo:#414833;
-    --color-principal:#656d4a;
+    --color-encabezado:#414833;
+    --color-adicional:#656d4a;
     --color-textoin:#a68a64;
     --color-textoout:#936639;
     --color-piepagina:#58240e;
     --color-boton:#b6ad90;
     --color-hover:#7f4f24;
     --color-varios:#a4ac86;
-
-    --fuente-krona: 'krona One', sans-serif;
-    --fuente-montserrat: 'Montserrat', sans-serif;
 }
 
 * {
+    background-color: var(--color-cuerpo);
     padding:0;
     margin: 0;  
-}
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height:140%;
+    }
 
 body{
     box-sizing: border-box;
-    background-color: var(--color-cuerpo);
-    color: var(--color-varios);
-
 }
 
 .encabezado{
-    background-color: var(--color-logo);
-    padding:0.5% 0% 0.5% 0.5%
+    display: flex;
+    gap: 70%;
+    background-color: var(--color-encabezado);
+    padding:0.5% 0% 0.5% 0.5%;
+}
+
+.logo--alura {
+    height: 3rem;
+    width: 5rem;
+    padding: 0.5rem ;
+    background-color:transparent;
 }
 
 .logo--encrip{
-   width:7rem;
-}
+    height: 4rem;
+}   
 
 .principal{
-    background-color: var(--color-principal);
-    height: 30rem;
+    height: 20rem;
 
-}
+ }
 
 h1{
     text-align: center;
@@ -51,12 +58,24 @@ h2{
     text-align: center;
 }
 
+.funciones-textos{
+
+    display: flex;
+    margin-left: 10rem;
+    gap:20rem;
+
+}
+
 .botones{
     display:flex;
     flex-direction:column;
-    gap: 1rem;
-    border: 1px solid var(--color-cuerpo);
-    width: 10rem ;
+    gap: 2rem;
+   
+    border: 1px solid #58240e;
+    width: 8rem ;
+    padding: 2% 0% 2% 2%;
+    justify-content:center; 
+    border-radius:1rem; 
 }
 
 .boton-detalle:hover{
@@ -64,13 +83,19 @@ h2{
 }
 
 .boton-detalle{
-        font-size: 0.8rem
+    font-size: 0.8rem;
+    width: 70%;
 }
 
-.piepagina{
-    background-color: var(--color-piepagina);
-    height: 10rem
+.textos{
+    display:flex;
+    gap:10rem;
+    Justify-Content:left;
 }
 
+.piepagina {
+    background-color: var(--color-piepagina0);
+
+}
 
 
