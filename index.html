@@ -28,19 +28,17 @@
         <main class="principal">
             <h1>Alura - OracleOne Text Encript model</h1> 
             <h2 > PROGRAMA EN CONSTRUCCIÓN</h2>
-
-            <section class="funciones-textos">
                 
-                <section class="botones">
-                    <button class="boton-detalle">Encriptar</button>
-                    <button class="boton-detalle">Copiar</button>
-                    <button class="boton-detalle">Desencriptar</button>
-                </section>
+            <section class="textos">
+                <textarea class="texto-ingreso"  cols="30" rows="10" placeholder="Ingrese el texto aquí" ></textarea>
+                 
+                <div class="botones">
+                    <button class="boton-encriptar">Encriptar</button>
+                    <button class="boton-copiar">Copiar</button>
+                    <button class="boton-desencriptar">Desencriptar</button>
+                </div>
 
-                <section class="textos">
-                    <textarea class="texto-detalle"  cols="30" rows="10" placeholder="Ingrese el texto aquí, solo en caracteres Numericos" onkeypress="return (event.charCode >= 48 && event.charCode <= 57)" min="1" ></textarea>
-                    <textarea class="texto-encriptado" cols="20" rows="10"  placeholder="Texto encriptado"></textarea>
-                </section>
+                <textarea class="texto-encriptado" cols="30" rows="10"  placeholder="Texto encriptado"></textarea>
             </section>
 
             <div class="informacion">Solo letras minúsculas y sin acentos</div>
