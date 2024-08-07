@@ -2,14 +2,15 @@
 
 :root{
     --color-cuerpo:#333d29;
-    --color-encabezado: #54210b;
+    --color-encabezado: #063150;
     --color-textoin:#414833;
     --color-textout:#fc341622;
-    --color-piepagina:#b0be83;
+    --color-piepagina:hsl(21, 35%, 13%);
     --color-texto:hwb(28 38% 31%);
     --color-hover:#7f4f24;
-    --color-varios:#a4ac86;
+    --color-borde:#111503;
     --color-boton:#b6ad90;
+    --color-fonts:#0d1100;
 }
 
 * {
@@ -23,12 +24,12 @@
     line-height:140%;
     }
 
-::placeholder{
-        color:#011124;
+    ::placeholder{
+        color: var(--color-fonts);
 }
 
 button:hover {
-    background-color: var(--color-boton);
+    background-color: var(--color-hover);
 }
 
 body{
@@ -43,19 +44,20 @@ body{
 }
 
 .logo--alura {
-    height: 2.3rem;
-    width: 5rem;
+    height: 3.5rem;
+
     padding: 0.5rem ;
     background-color:transparent;
 }
 
 .logo--encrip{
     height: 4rem;
+    background-color:transparent;
 }   
 
 .principal{
     height: 25rem;
-
+ 
  }
 
 h1{
@@ -80,9 +82,7 @@ h2{
     border-radius:2%;
     background-color: var(--color-textoin);
     color:#020d1b;
-    text-transform:lowercase;
-
-
+    text-transform:lowercase;   
 }
 
 .texto-ingreso:focus{
@@ -93,8 +93,12 @@ h2{
     border:none;
     border-radius:2%;
     background-color: var(--color-textout);
-    background-image: url("assets/imagenBuscar.png");
+   * background-image: url("/assets/imagenBuscar.png");
     background-repeat: no-repeat;
+
+.texto-encriptado:focus{
+    outine:none;
+}
 
 
 
@@ -113,20 +117,56 @@ h2{
 
 
 .boton-encriptar{
-    font-size: 0.8rem;
-    width: 70%;
+    background-color: var(--color-boton);
+    border:1px solid var(--color-borde);
+    background-color: var(--color-boton);
+    border:1px solid var(--color-borde);
+    border-radius: 7%;
+    color: var(--color-fonts);
+    cursor:pointer;
+    height:2rem;  
+    width: 8rem;
+    font-size:1rem;
 }
 
 .boton-copiar {
+    background-color: var(--color-boton);
+    border:1px solid var(--color-borde);
+    background-color: var(--color-boton);
+    border:1px solid var(--color-borde);
+    border-radius: 7%;
+    color: var(--color-fonts);
+    cursor:pointer;
+    height:2rem;  
+    width: 8rem;
+    font-size:1rem;
     
 }
 
 .boton-desencriptar{
 
+    background-color: var(--color-boton);
+    border:1px solid var(--color-borde);
+    border-radius: 7%;
+    color: var(--color-fonts);
+    cursor:pointer;
+    height:2rem;  
+    width: 8rem;
+    font-size:1rem;
+
+}
+
+.informacion{
+    color: var(--color-fonts);
+    padding-left:5rem;
+    font-size:.5rem
+
 }
 
 .piepagina {
     background-color: var(--color-piepagina);
+    padding: 1.5% 
+    
 
 }
 
