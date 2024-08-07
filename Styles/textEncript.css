@@ -93,7 +93,7 @@ h2{
     border:none;
     border-radius:2%;
     background-color: var(--color-textout);
-   * background-image: url("/assets/imagenBuscar.png");
+   background-image: url("/assets/imagenBuscar.png");
     background-repeat: no-repeat;
 
 .texto-encriptado:focus{
