@@ -21,7 +21,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height:140%;
+    line-height:150%;
     }
 
     ::placeholder{
@@ -44,7 +44,7 @@ body{
 }
 
 .logo--alura {
-    height: 3.5rem;
+    height:5rem;
 
     padding: 0.5rem ;
     background-color:transparent;
@@ -62,15 +62,17 @@ body{
 
 h1{
     text-align: center;
+    font-size: 1.5rem;
 }
 
 h2{
     text-align: center;
+    font-size:1rem;
 }
 
 .textos{
+    height: 18rem;
     display:flex;
-    margin-bottom:1rem;
     margin-left:5rem;
     margin-right:5rem;
     gap:1 rem
@@ -85,6 +87,7 @@ h2{
     text-transform:lowercase;
     width:60rem;
     padding:4% 4% 4% 4%;
+    font-size:1rem;
 }
 
 .texto-ingreso:focus{
@@ -101,6 +104,7 @@ h2{
     background-size:50% 60%;
     padding: 4% 4% 4% ;
     width:60rem;
+    font-size: 1rem;
 }
 
 .texto-encriptado:focus{
@@ -154,6 +158,7 @@ h2{
     width: 12rem;
     font-size:1rem;
     padding-left:5% 10% 10%;
+   
 }
 
 .boton-desencriptar{
@@ -173,30 +178,35 @@ h2{
 
 }
 
-.informacion{
+.informacion {
     color: var(--color-fonts);
-    padding-left:5rem;
-    font-size:.5rem
+    padding-left: 5rem;
+    font-size: 0.7rem;
 }
 
-.informacion1{
-    color: var(--color-fonts);
-    font-size:.5rem
-}
-
-.sinMensaje{
+.sinMensaje {
     width: 30%;
     padding-left: 5rem;
     margin-left: 1px;
     float: right;
-    font-style: italic;
     justify-items:center;
-   justify-content: center;
-
+    justify-content: center;
 }
+
+h6 {
+    color: var(--color-fonts);
+    font-size: 1rem;
+    font-style: italic;
+}
+.informacion1 {
+    color: var(--color-fonts);
+    font-size: 0.7rem;
+    font-style: italic;
+}
+
 .piepagina {
     background-color: var(--color-piepagina);
-    padding:0.2%;
+    padding:0.2% ;
     justify-items:left;
 
 }
@@ -205,10 +215,23 @@ h2{
     color: var(--color-fonts);
     text-align:left;
     padding-left:10rem;
+    font-weight: 600;
 }
 
 .presentacion__enlaces__link{
     color: var(--color-fonts);
     font-size: 0.8rem;
     padding-left:5rem;
+}
+
+@media(max-width: 1200px) {
+        
+    .botones{
+        
+        transform: rotate(.25turn);
+
+    }
+
+   
+
 }
