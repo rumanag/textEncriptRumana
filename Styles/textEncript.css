@@ -257,7 +257,7 @@ h6 {
     }
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 640px) {
     
     html {
         font-size: 12px
