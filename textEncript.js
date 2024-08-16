@@ -59,3 +59,17 @@ function desencriptar(stringEncriptada){
     }
     return stringEncriptada;
 }
+
+function btnCopiar() {
+
+    let stringEncriptada= document.querySelector(".texto-encriptado");
+    stringEncriptada.select();
+    stringEncriptada.setSelectionRange(0,99999);  // versiones móbiles
+
+    navigator.clipboard.writeText(stringEncriptada.value).then(function() {
+            alert("¡Texto copiado al clipboard!");
+    }).catch(function(error){
+        console.error(`Falló la copia: ${error}`)
+    })
+}
+
