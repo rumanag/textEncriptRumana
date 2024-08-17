@@ -1,4 +1,4 @@
 <h4 align = "center">
-:construction: Proyecto en construcción :construction:
+proyecto construido en version 1.0
 </h4>
 
