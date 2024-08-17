@@ -14,7 +14,7 @@ function btnEncriptar(){
    
     // validacion de los caracteres del texto
 
-    regex = /^[a-z\s]+$/;
+    regex = /^[a-z\?]+$/;
     
     if ( regex.test(textoValidar.value)){  
         const textoEncriptar = encriptar(textoIngreso.value); //textoIngreso pasa el contenido a textoEncriptar.
