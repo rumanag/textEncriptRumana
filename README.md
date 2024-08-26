@@ -47,7 +47,7 @@ con el dispositivo:
 
   Teniendo en cuenta que es una primera versión, el programa está funcionando bajo especificaciones, incluyendo
   la ***resposividad*** que se ejecuta en forma horizontal. En una segunda versión, intentaremos que esta se realice
-  también en forma vertical, con unos pequeños cambios de diseño. Igualmente, los colores y presdentación general son 
+  también en forma vertical, con unos pequeños cambios de diseño. Igualmente, los colores y presentación general son 
   sujetos de mejora.
 
   En cuanto a las liciencias, mientras aprendemos un poco más, son las que especifica GitHub para ser aplicada en este
