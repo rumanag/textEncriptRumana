@@ -46,7 +46,16 @@ con el dispositivo:
 ## Conclusiones
 
   Teniendo en cuenta que es una primera versión, el programa está funcionando bajo especificaciones, incluyendo
-  la 
+  la ***resposividad*** que se ejecuta en forma horizontal. En una segunda versión, intentaremos que esta se realice
+  también en forma vertical, con unos pequeños cambios de diseño. Igualmente, los colores y presdentación general son 
+  sujetos de mejora.
+
+  En cuanto a las liciencias, mientras aprendemos un poco más, son las que especifica GitHub para ser aplicada en este
+  tipo de trabajo, el cual es de conocimiento público y no tiene ningún tipo de innovación u originalidad tecnológica.
+
+  --------
+Barranquilla 26/08/2024 - version 1.
+  
   el programa estáEn su conjunto, el programa está funcionando de acuerdo con las especificaciones generales y 
 
 
