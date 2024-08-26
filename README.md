@@ -9,7 +9,7 @@ como resultado final de la primera etapa,
 
 Para nosotros los que por primera vez hemos realizado este ejercicio  de una maeera ordenada, consistestente y 
 continua, ha sido un verdadero reto, no porque no se entendieran los diversos cursos, sino porque las materias son 
-tan vastas y el vocabulario tan abundanete, que había momentos de confusión bastante estresantes. Nos queda claro
+tan vastas y el vocabulario tan abundante, que había momentos de confusión bastante estresantes. Nos queda claro
 que este es solo la punta de la aguja y que para poder ***coser el traje completo***  requerimos un esfuerzo 
 permamente y de  largo plazo. Pero son tan interesantes estas materias que seguiremos avanzando en el adiestramiento.
 
