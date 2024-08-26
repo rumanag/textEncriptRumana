@@ -1,4 +1,3 @@
-<h4 align = "center">
-proyecto construido en version 1.0
-</h4>
+[Encabezamiento Encriptador de Texto](./assets/encriptadorLogo5A.png)
 
+# ENCRIPTADOR DE TEXTO
