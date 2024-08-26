@@ -39,7 +39,7 @@ con el dispositivo:
    La explicación de qué se valida en cada botón es clara en la figura.
 
 ### El diagrama de Usos
-[diagrama de validaciones](./assets/diagramaUso.png)
+[diagrama de uso](./assets/diagramaUso.png)
    Presenta las funcionalidades del sistema y la interacción entre el usuario y el dispositivo. La imágen se 
    explica por sí sola.
 
