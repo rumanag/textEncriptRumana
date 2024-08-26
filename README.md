@@ -26,3 +26,30 @@ a través de:
 
  El programa corre en cualquiera de estos dispositivos, de manera horizontal por la disposición de los
 elementos y se ejecuta en la url [Encriptador de Texto](https://rumanag.github.io/textEncriptRumana/)
+
+## Funcionamiento
+
+en las siguientes imágenes se presenta el funcionamiento básico de las validaciones y de la interacción del usuario 
+con el dispositivo:
+
+[diagrama de validaciones](./assets/diagramaValidaciones.png)
+
+### El diagrama de Validaciones
+   Presenta las validaciones que realiza el programa, en JS, de acuerdo al botón o al campo de que se trate.
+   Por ejemplo al ***ingresar texto*** el programa convierte las mayúsculas en minúsculas de manera automática.
+   La explicación de qué se valida en cada botón es clara en la figura.
+
+### El diagrama de Usos
+   Presenta las funcionalidades del sistema y la interacción entre el usuario y el dispositivo. La imágen se 
+   explica por sí sola.
+
+## Conclusiones
+
+  Teniendo en cuenta que es una primera versión, el programa está funcionando bajo especificaciones, incluyendo
+  la 
+  el programa estáEn su conjunto, el programa está funcionando de acuerdo con las especificaciones generales y 
+
+
+
+   
+
